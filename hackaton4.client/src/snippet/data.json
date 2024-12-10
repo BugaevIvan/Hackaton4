@@ -1,26 +1,174 @@
-[
-  {
-    "tag": "select",
-    "name": "typeacc",
-    "title": "Тип жилья",
-    "options": ["общага", "гостиница"]
-  },
-  {
-    "tag": "input",
-    "type": "text",
-    "name": "capacity",
-    "title": "Вместимость"
-  },
-  {
-    "tag": "input",
-    "type": "text",
-    "name": "location",
-    "title": "Местоположение"
-  },
-  {
-    "tag": "input",
-    "type": "text",
-    "name": "description",
-    "title": "Описание"
-  }
-]
+{
+  "accommodation": [
+    {
+      "tag": "select",
+      "name": "typeHousing",
+      "title": "Тип жилья",
+      "options": [ "общежитие", "гостиница" ]
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "capacity",
+      "title": "Вместимость"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "location",
+      "title": "Местоположение"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "description",
+      "title": "Описание"
+    }
+  ],
+  "ticket": [
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "transport",
+      "title": "Тип транспорта"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "route",
+      "title": "Маршрут"
+    },
+    {
+      "tag": "input",
+      "type": "date",
+      "name": "departureDate",
+      "title": "Дата вылета"
+    },
+    {
+      "tag": "input",
+      "type": "date",
+      "name": "arrivalDate",
+      "title": "Дата прибытия"
+    }
+  ],
+  "menu": [
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "dish",
+      "title": "Блюдо"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "structure",
+      "title": "Струтура"
+    }
+  ],
+  "shift": [
+    {
+      "tag": "input",
+      "type": "date",
+      "name": "startShiftDate",
+      "title": "Начало смены"
+    },
+    {
+      "tag": "input",
+      "type": "date",
+      "name": "endShiftDate",
+      "title": "Конец смены"
+    }
+  ],
+  "medical": [
+    {
+      "tag": "select",
+      "name": "reason",
+      "title": "Причина",
+      "options": [ "простуда", "вирус", "отравление", "травма" ]
+    },
+    {
+      "tag": "input",
+      "type": "date",
+      "name": "startMedicalDate",
+      "title": "Начало больничного"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "descript",
+      "title": "Описание"
+    }
+  ],
+  "survey": [
+    {
+      "tag": "select",
+      "name": "typeAnswer",
+      "title": "Тип опроса",
+      "options": [ "правильно", "неправильно" ]
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "questiouns",
+      "title": "Опрос"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "targetAudience",
+      "title": "Целевая аудитория"
+    }
+  ],
+  "freetime": [
+    {
+      "tag": "input",
+      "type": "date",
+      "name": "startDate",
+      "title": "Начало"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "location",
+      "title": "Местоположение"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "contacts",
+      "title": "Контакты"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "description",
+      "title": "Описание"
+    }
+  ],
+  "report": [
+    {
+      "tag": "select",
+      "name": "typeacc",
+      "title": "Тип жилья",
+      "options": [ "общага", "гостиница" ]
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "capacity",
+      "title": "Вместимость"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "location",
+      "title": "Местоположение"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "description",
+      "title": "Описание"
+    }
+  ]
+}

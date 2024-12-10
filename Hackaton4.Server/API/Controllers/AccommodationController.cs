@@ -4,6 +4,7 @@ using System.Security.Cryptography;
 using System.Text;
 using Newtonsoft.Json;
 using rusal.Server.DAL.Entities;
+using Hackaton4.Server.DAL.Entities;
 
 namespace rusal.Server.API.Controllers
 {
@@ -22,13 +23,14 @@ namespace rusal.Server.API.Controllers
             return CreatedAtAction("PostAccommodation", accommodation);
         }
 
-        //[HttpGet]
-        //public async Task<ActionResult<IEnumerable<Accommodation>>> GetPasses()
-        //{
-        //    if (passContext.Passes == null)
-        //        return NotFound();
-        //    return await passContext.Passes.ToListAsync();
-        //}
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Accommodation>>> GetAccommodation()
+        {
+            if (context.Accommodations == null)
+                return NotFound();
+            var a = await context.Accommodations.ToListAsync();
+            return a;
+        }
 
         //[HttpGet("{passId}")]
         //public async Task<ActionResult<Accommodation>> GetPass([FromRoute] Guid passId)

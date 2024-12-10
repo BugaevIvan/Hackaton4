@@ -1,0 +1,40 @@
+//  :root {
+//     --background: linear-gradient(99deg, rgba(2, 0, 36, 1) 0%, rgba(208, 208, 228, 1) 0%, rgba(230, 217, 172, 1) 100%);
+// }
+
+// .dark-mode {
+//     --background: radial-gradient(circle, rgb(31, 39, 83) 0%, rgb(41, 41, 41) 100%);
+//}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    background-color: #303030;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    justify-content:space-evenly;
+    color: white;
+    
+    font-size: 20px;
+    
+    .page-title{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        cursor:pointer;
+
+        a {
+            color:white;
+            text-decoration:none;
+        }
+    }
+}

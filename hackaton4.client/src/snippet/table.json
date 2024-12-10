@@ -1,0 +1,61 @@
+{
+  "accommodation": [
+    {
+      "typeHousing": "Тип жилья",
+      "capacity": "Вместимость",
+      "location": "Местоположение",
+      "id": "ID",
+      "description": "Описание"
+    }
+  ],
+  "ticket": [
+    {
+      "transport": "Тип транспорта",
+      "route": "Маршрут",
+      "departureDate": "Дата вылета",
+      "arrivalDate": "Дата прибытия"
+    }
+  ],
+  "menu": [
+    {
+      "dish": "Блюдо",
+      "structure": "Структура"
+    }
+  ],
+  "shift": [
+    {
+      "startShiftDate": "Начало смены",
+      "endShiftDate": "Конец смены"
+    }
+  ],
+  "medical": [
+    {
+      "reason": "Причина",
+      "startMedicalDate": "Начало больничного",
+      "description": "Описание"
+    }
+  ],
+  "survey": [
+    {
+      "typeAnswer": "Тип опроса",
+      "questiouns": "Опрос",
+      "targetAudience": "Целевая аудитория"
+    }
+  ],
+  "freetime": [
+    {
+      "startDate": "Начало",
+      "location": "Местоположение",
+      "description": "Описание",
+      "contacts": "Контакты"
+    }
+  ],
+  "report": [
+    {
+      "tag": "1",
+      "type": "2",
+      "name": "3",
+      "title": "4"
+    }
+  ]
+}

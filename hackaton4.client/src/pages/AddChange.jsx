@@ -8,7 +8,7 @@ import MyService from "../api/MyService";
 import "../css/Pass.scss";
 import rusal from "../img/rusal.png";
 
-const Pass = () => {
+const AddChange = () => {
   const location = useLocation();
   const [pass, setPass] = useState(location.state?.response);
   const [isEditMode, setIsEditMode] = useState(
@@ -17,12 +17,12 @@ const Pass = () => {
   const [isPassAdded, setIsPassAdded] = useState(pass !== undefined);
 
   // Добавление нового пропуска
-  async function PostPass(event) {
+  async function PostAccommodation(event) {
     event.preventDefault();
     const formData = new FormData(document.getElementById("FormId"));
     const data = Object.fromEntries(formData.entries());
     try {
-      const response = await MyService.PostPass(data);
+      const response = await MyService.PostAccommodation(data);
       setPass(response);
       setIsPassAdded(true);
       setIsEditMode(false);
@@ -96,7 +96,7 @@ const Pass = () => {
           </div>
           <div id="for_input">
             {isPassAdded === false ? (
-              <button type="button" id="add_pass" onClick={PostPass}>
+              <button type="button" id="add_pass" onClick={PostAccommodation}>
                 ДОБАВИТЬ
               </button>
             ) : isEditMode === false ? (
@@ -133,4 +133,4 @@ const Pass = () => {
   );
 };
 
-export default Pass;
+export default AddChange;

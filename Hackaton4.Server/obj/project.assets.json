@@ -3096,11 +3096,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\Desktop\\Hackaton4\\Hackaton4.Server\\Hackaton4.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Desktop\\aaa\\Hackaton4\\Hackaton4.Server\\Hackaton4.Server.csproj",
       "projectName": "Hackaton4.Server",
-      "projectPath": "C:\\Users\\Ivan\\Desktop\\Hackaton4\\Hackaton4.Server\\Hackaton4.Server.csproj",
+      "projectPath": "C:\\Users\\Ivan\\Desktop\\aaa\\Hackaton4\\Hackaton4.Server\\Hackaton4.Server.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan\\Desktop\\Hackaton4\\Hackaton4.Server\\obj\\",
+      "outputPath": "C:\\Users\\Ivan\\Desktop\\aaa\\Hackaton4\\Hackaton4.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",

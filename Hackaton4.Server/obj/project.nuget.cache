@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "biCo7t89Wzs=",
+  "dgSpecHash": "iSX4+iORGvc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ivan\\Desktop\\Hackaton4\\Hackaton4.Server\\Hackaton4.Server.csproj",
+  "projectFilePath": "C:\\Users\\Ivan\\Desktop\\aaa\\Hackaton4\\Hackaton4.Server\\Hackaton4.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ivan\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
