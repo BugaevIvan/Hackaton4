@@ -1,0 +1,48 @@
+{
+  "first_column": [
+    {
+      "tag": "select",
+      "name": "status",
+      "title": "Статус",
+      "options": ["Действителен", "Приостановлен", "Просрочен", "Изъят"]
+    },
+    {
+      "tag": "select",
+      "name": "type",
+      "title": "Тип",
+      "options": ["Постоянный", "Временный", "Разовый"]
+    },
+    {
+      "tag": "select",
+      "name": "typePeriod",
+      "title": "Тип периода",
+      "options": ["Постоянный", "Временный", "Разовый"]
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "organization",
+      "title": "Организация"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "comment",
+      "title": "Комментарий"
+    }
+  ],
+  "second_column": [
+    {
+      "tag": "input",
+      "type": "date",
+      "name": "datefrom",
+      "title": "Дата с"
+    },
+    {
+      "tag": "input",
+      "type": "date",
+      "name": "dateto",
+      "title": "Дата по"
+    }
+  ]
+}
