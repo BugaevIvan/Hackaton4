@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\Ivan\\Desktop\\qwwq\\Hackaton4\\Hackaton4.Server\\..\\hackaton4.client",
+"WorkingDirectory": "C:\\Users\\Ivan\\Desktop\\Hackaton4\\Hackaton4.Server\\..\\hackaton4.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
