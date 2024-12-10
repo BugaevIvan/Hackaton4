@@ -1,0 +1,26 @@
+[
+  {
+    "tag": "select",
+    "name": "typeacc",
+    "title": "Тип жилья",
+    "options": ["общага", "гостиница"]
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "name": "capacity",
+    "title": "Вместимость"
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "name": "location",
+    "title": "Местоположение"
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "name": "description",
+    "title": "Описание"
+  }
+]

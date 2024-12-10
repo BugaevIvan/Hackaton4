@@ -1,0 +1,4 @@
+GET {{Hackaton4.Server_HostAddress}}/
+Accept: application/json
+
+###

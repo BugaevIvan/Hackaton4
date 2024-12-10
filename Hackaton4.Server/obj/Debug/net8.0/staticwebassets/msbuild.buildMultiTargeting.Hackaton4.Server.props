@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Hackaton4.Server.props" />
+</Project>

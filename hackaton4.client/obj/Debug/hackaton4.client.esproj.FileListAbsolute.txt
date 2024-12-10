@@ -1,0 +1,2 @@
+C:\Users\Ivan\Desktop\Hackaton4\hackaton4.client\obj\Debug\hackaton4.client.esproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\qwwq\Hackaton4\hackaton4.client\obj\Debug\hackaton4.client.esproj.CoreCompileInputs.cache
